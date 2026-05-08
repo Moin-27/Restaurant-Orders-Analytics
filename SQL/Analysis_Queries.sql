@@ -35,3 +35,20 @@ FROM `order`
 GROUP BY `Customer Name`
 ORDER BY TotalOrders DESC;
 
+SELECT `Customer Name`,
+AVG(`Delivery Time Taken (mins)`) AS AvgDeliveryTime
+FROM `order`
+GROUP BY `Customer Name`
+ORDER BY AvgDeliveryTime ASC;
+
+SELECT `Customer Name`,
+AVG(`Customer Rating-Food`) AS Avgrating 
+FROM `order`
+GROUP BY `Customer Name`
+ORDER BY Avgrating DESC;
+
+SELECT `Payment Mode`,
+SUM(`Order Amount`) AS TotalRevenue
+FROM `order`
+GROUP BY `Payment Mode`
+ORDER BY TotalRevenue DESC;
