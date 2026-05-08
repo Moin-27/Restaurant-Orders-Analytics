@@ -10,6 +10,9 @@ SELECT SUM(`Order Amount`) FROM `order`;
 
 SELECT AVG(`Order Amount`) FROM `order`;
 
+SELECT AVG(`Delivery Time Taken (mins)`) AS AvgDeliveryTime
+FROM `order`;
+
 SELECT `Customer Name`, SUM(`Order Amount`) AS TotalSpent
 FROM `order`
 GROUP BY `Customer Name`
@@ -31,3 +34,4 @@ COUNT(*) AS TotalOrders
 FROM `order`
 GROUP BY `Customer Name`
 ORDER BY TotalOrders DESC;
+
