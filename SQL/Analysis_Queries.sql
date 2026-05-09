@@ -66,3 +66,11 @@ FROM `order`
 GROUP BY `Payment Mode`
 ORDER BY AvgDeliveryTime ASC;
 
+SELECT `Customer Name`,
+COUNT(*) AS HighestOrders,
+AVG(`Order Amount`) AS AvgHighAmount
+FROM `order`
+WHERE `Order Amount` > 1000
+GROUP BY `Customer Name`
+ORDER BY HighestOrders DESC;
+
