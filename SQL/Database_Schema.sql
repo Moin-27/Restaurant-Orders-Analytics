@@ -2,7 +2,6 @@
 -- Project  : Restaurant Orders Analytics
 -- Database : restaurant_orders_db
 -- Table    : orders
--- Created  : 2026-05-08
 -- =============================================================
 
 CREATE DATABASE IF NOT EXISTS restaurant_orders_db;
