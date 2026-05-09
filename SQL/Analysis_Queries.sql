@@ -78,3 +78,11 @@ GROUP BY `Customer Name`
 ORDER BY TotalOrders DESC
 LIMIT 5;
 
+SELECT `Customer Name`,
+COUNT(*) AS TotalOrders,
+SUM(`Order Amount`) AS TotalSpent,
+AVG(`Order Amount`) AS AvgSpent
+FROM `order`
+GROUP BY `Customer Name`
+ORDER BY TotalSpent DESC
+LIMIT 5;
