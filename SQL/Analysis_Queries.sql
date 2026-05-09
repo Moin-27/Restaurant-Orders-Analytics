@@ -13,12 +13,8 @@ SELECT AVG(`Order Amount`) FROM `order`;
 SELECT AVG(`Delivery Time Taken (mins)`) AS AvgDeliveryTime
 FROM `order`;
 
-SELECT `Customer Name`, SUM(`Order Amount`) AS TotalSpent
-FROM `order`
-GROUP BY `Customer Name`
-ORDER BY TotalSpent DESC;
-
-SELECT `Payment Mode`, COUNT(*) AS TotalOrders
+SELECT `Payment Mode`, 
+COUNT(*) AS TotalOrders
 FROM `order`
 GROUP BY `Payment Mode`
 ORDER BY TotalOrders DESC;
@@ -28,12 +24,6 @@ SUM(`Order Amount`) AS TotalRevenue
 FROM `order`
 GROUP BY `Restaurant ID`
 ORDER BY TotalRevenue DESC;
-
-SELECT `Customer Name`,
-COUNT(*) AS TotalOrders
-FROM `order`
-GROUP BY `Customer Name`
-ORDER BY TotalOrders DESC;
 
 SELECT `Customer Name`,
 AVG(`Delivery Time Taken (mins)`) AS AvgDeliveryTime
@@ -73,4 +63,18 @@ FROM `order`
 WHERE `Order Amount` > 1000
 GROUP BY `Customer Name`
 ORDER BY HighestOrders DESC;
+
+SELECT `Customer Name`,
+SUM(`Order Amount`) AS TotalSpent
+FROM `order`
+GROUP BY `Customer Name`
+ORDER BY TotalSpent DESC
+LIMIT 5;
+
+SELECT `Customer Name`,
+COUNT(*) AS TotalOrders
+FROM `order`
+GROUP BY `Customer Name`
+ORDER BY TotalOrders DESC
+LIMIT 5;
 
