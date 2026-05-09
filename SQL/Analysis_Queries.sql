@@ -52,3 +52,17 @@ SUM(`Order Amount`) AS TotalRevenue
 FROM `order`
 GROUP BY `Payment Mode`
 ORDER BY TotalRevenue DESC;
+
+SELECT `Customer Name`,
+COUNT(*) AS TotalOrders,
+SUM(`Order Amount`) AS TotalSpent
+FROM `order`
+GROUP BY `Customer Name`
+ORDER BY TotalSpent DESC;
+
+SELECT `Payment Mode`,
+AVG(`Delivery Time Taken (mins)`) AS AvgDeliveryTime
+FROM `order`
+GROUP BY `Payment Mode`
+ORDER BY AvgDeliveryTime ASC;
+
