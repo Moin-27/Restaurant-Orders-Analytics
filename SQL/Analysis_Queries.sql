@@ -86,3 +86,16 @@ FROM `order`
 GROUP BY `Customer Name`
 ORDER BY TotalSpent DESC
 LIMIT 5;
+
+SELECT `Customer Name`,
+COUNT(*) AS TotalOrders,
+SUM(`Order Amount`) AS TotalSpent,
+AVG(`Order Amount`) AS AvgSpent,
+AVG(`Delivery Time Taken (mins)`) AS AvgDeliveryTime,
+AVG(`Customer Rating-Food`) AS AvgFoodRating
+FROM `order`
+GROUP BY `Customer Name`
+HAVING COUNT(*) >= 2
+ORDER BY TotalSpent DESC
+LIMIT 10;
+
