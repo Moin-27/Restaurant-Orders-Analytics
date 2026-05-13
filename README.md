@@ -1,7 +1,14 @@
 # 🍔 Restaurant Orders Analytics Dashboard
 
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow?style=for-the-badge&logo=powerbi)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
+![SQL](https://img.shields.io/badge/SQL-Analysis-orange?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-green?style=for-the-badge&logo=microsoftexcel)
+
+---
+
 ## 📊 Overview
-This project showcases an interactive Restaurant Orders Dashboard built in Power BI using SQL-based analysis to explore revenue trends, customer behavior, delivery performance, and food ratings.
+This project showcases an interactive Restaurant Orders Analytics Dashboard built in Power BI using SQL-based analysis to explore revenue trends, customer behavior, delivery performance, and customer ratings.
 
 The project combines SQL, Excel, and Power BI to transform raw restaurant order data into meaningful business insights through interactive dashboards and data storytelling.
 
@@ -78,7 +85,8 @@ The project combines SQL, Excel, and Power BI to transform raw restaurant order 
 Restaurant Orders Dataset containing:
 - Customer Details
 - Order Amount
-- Ratings
+- Food Rating
+- Delivery Rating
 - Delivery Time
 - Payment Mode
 - Quantity Ordered
@@ -94,16 +102,66 @@ Restaurant Orders Dataset containing:
 
 ---
 
+## 🗄️ Sample SQL Query
+
+```sql
+SELECT `Customer Name`,
+SUM(`Order Amount`) AS TotalSpent
+FROM `order`
+GROUP BY `Customer Name`
+ORDER BY TotalSpent DESC
+LIMIT 5;
+```
+
+---
+
+## 📷 Dashboard Preview
+
+### 🏠 Overview Dashboard
+![Overview Dashboard](Screenshots/overview-dashboard.png)
+
+### 💰 Revenue Analysis
+![Revenue Analysis](Screenshots/revenue-analysis.png)
+
+### 🚚 Delivery Analysis
+![Delivery Analysis](Screenshots/delivery-analysis.png)
+
+### ⭐ Ratings Analysis
+![Ratings Analysis](Screenshots/ratings-analysis.png)
+
+### 👥 Customers Analysis
+![Customers Analysis](Screenshots/customers-analysis.png)
+
+---
+
 ## 📁 Project Structure
 
 ```text
 Restaurant-Orders-Analytics
 │
 ├── Dataset
+│   └── restaurant_orders_dataset.xlsx
+│
 ├── PDF
+│   └── Restaurant_Dashboard.pdf
+│
 ├── Power-BI
+│   └── Restaurant_Dashboard.pbix
+│
 ├── SQL
+│   ├── restaurant_analysis_queries.sql
+│   └── restaurant_database_schema.sql
+│
+├── Screenshots
+│   ├── overview-dashboard.png
+│   ├── revenue-analysis.png
+│   ├── delivery-analysis.png
+│   ├── ratings-analysis.png
+│   └── customers-analysis.png
+│
 ├── Video
+│   └── restaurant-dashboard-demo.mp4
+│
 └── README.md
 ```
 
@@ -131,8 +189,9 @@ This dashboard helps restaurants:
 
 ## ▶️ How to Use
 1. Download the `.pbix` file  
-2. Open using Power BI Desktop  
-3. Explore dashboard pages & filters  
+2. Open it using Power BI Desktop  
+3. Explore different dashboard pages  
+4. Use filters and navigation buttons for interaction  
 
 ---
 
