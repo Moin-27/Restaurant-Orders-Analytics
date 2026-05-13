@@ -70,6 +70,7 @@ The project combines SQL, Excel, and Power BI to transform raw restaurant order 
 ## 🛠️ Tech Stack
 - Power BI
 - MySQL
+- SQL
 - Excel
 - Power Query
 
@@ -209,4 +210,5 @@ This dashboard helps restaurants:
 🎓 BSc IT Final Year Student  
 📊 Aspiring Data Analyst  
 
-🔗 GitHub: https://github.com/Moin-27
+🔗 GitHub: https://github.com/Moin-27  
+🌐 Portfolio: https://moin-27.github.io/Portfolio/
