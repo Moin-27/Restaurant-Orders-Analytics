@@ -68,11 +68,11 @@ The project combines SQL, Excel, and Power BI to transform raw restaurant order 
 ---
 
 ## 🛠️ Tech Stack
-- Power BI
 - MySQL
-- SQL
-- Excel
+- Power BI
 - Power Query
+- Excel
+- SQL
 
 ---
 
