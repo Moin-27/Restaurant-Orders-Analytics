@@ -135,7 +135,7 @@ LIMIT 5;
 Restaurant-Orders-Analytics
 │
 ├── Dataset
-│   └── restaurant_orders_dataset.xlsx
+│   └── restaurant_orders_dataset.csv
 │
 ├── PDF
 │   └── Restaurant_Dashboard.pdf
