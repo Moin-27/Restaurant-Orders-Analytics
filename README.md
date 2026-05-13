@@ -1,5 +1,7 @@
 # 🍔 Restaurant Orders Analytics Dashboard
 
+---
+
 ## 📊 Overview
 This project showcases an interactive Restaurant Orders Analytics Dashboard built in Power BI using SQL-based analysis to explore revenue trends, customer behavior, delivery performance, and customer ratings.
 
