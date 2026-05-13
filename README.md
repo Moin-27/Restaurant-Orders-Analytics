@@ -1,10 +1,5 @@
 # 🍔 Restaurant Orders Analytics Dashboard
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow?style=for-the-badge&logo=powerbi)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
-![SQL](https://img.shields.io/badge/SQL-Analysis-orange?style=for-the-badge)
-![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-green?style=for-the-badge&logo=microsoftexcel)
-
 ---
 
 ## 📊 Overview
