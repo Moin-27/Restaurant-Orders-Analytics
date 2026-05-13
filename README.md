@@ -70,7 +70,6 @@ The project combines SQL, Excel, and Power BI to transform raw restaurant order 
 ## 🛠️ Tech Stack
 - Power BI
 - MySQL
-- SQL
 - Excel
 - Power Query
 
@@ -99,6 +98,8 @@ Restaurant Orders Dataset containing:
 
 ## 🗄️ Sample SQL Query
 
+*Fetches the top 5 customers based on their total spending:*
+
 ```sql
 SELECT `Customer Name`,
 SUM(`Order Amount`) AS TotalSpent
@@ -126,6 +127,18 @@ LIMIT 5;
 
 ### 👥 Customers Analysis
 ![Customers Analysis](Screenshots/customers-analysis.png)
+
+---
+
+## 📄 View Full Dashboard PDF
+
+> 📥 [**Click here to view the full Dashboard PDF**](PDF/Restaurant_Dashboard.pdf)
+
+---
+
+## 🎥 Dashboard Demo Video
+
+> ▶️ [**Click here to watch the Dashboard Demo Video**](Video/restaurant-dashboard-demo.mp4)
 
 ---
 
