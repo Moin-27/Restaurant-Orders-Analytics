@@ -41,13 +41,6 @@ FROM `order`
 GROUP BY `Customer Name`
 ORDER BY AvgDeliveryTime ASC;
 
--- Find the average food rating given by each customer
-SELECT `Customer Name`,
-AVG(`Customer Rating-Food`) AS Avgrating 
-FROM `order`
-GROUP BY `Customer Name`
-ORDER BY Avgrating DESC;
-
 -- Calculate total revenue generated through each payment method
 SELECT `Payment Mode`,
 SUM(`Order Amount`) AS TotalRevenue
@@ -85,6 +78,14 @@ SUM(`Order Amount`) AS TotalSpent
 FROM `order`
 GROUP BY `Customer Name`
 ORDER BY TotalSpent DESC
+LIMIT 5;
+
+-- Get the top 5 customers by highest average food rating
+SELECT `Customer Name`,
+AVG(`Customer Rating-Food`) AS Avgrating 
+FROM `order`
+GROUP BY `Customer Name`
+ORDER BY Avgrating DESC
 LIMIT 5;
 
 -- Get the top 5 most frequent customers by number of orders
