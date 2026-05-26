@@ -216,3 +216,9 @@ https://github.com/Moin-27
 
 🌐 Portfolio:  
 https://moin-27.github.io/Portfolio/
+
+---
+
+# ⭐ If you liked this project
+
+Give it a star on GitHub ⭐
