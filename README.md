@@ -204,11 +204,15 @@ This dashboard helps restaurants:
 
 ---
 
-## 👤 Author
+# 👨‍💻 Author
 
-**Moin Ahmed**  
-🎓 BSc IT Final Year Student  
-📊 Aspiring Data Analyst  
+**Moin Ahmed**
 
-🔗 GitHub: https://github.com/Moin-27  
-🌐 Portfolio: https://moin-27.github.io/Portfolio/
+🔗 LinkedIn:  
+https://www.linkedin.com/in/moin-ahmed27/
+
+🔗 GitHub:  
+https://github.com/Moin-27
+
+🌐 Portfolio:  
+https://moin-27.github.io/Portfolio/
