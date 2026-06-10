@@ -208,11 +208,7 @@ This dashboard helps restaurants:
 
 **Moin Ahmed**
 
-🔗 LinkedIn:  
-https://www.linkedin.com/in/moin-ahmed27/
-
-🔗 GitHub:  
-https://github.com/Moin-27
-
-🌐 Portfolio:  
-https://moin-27.github.io/Portfolio/
+* 🔗 **LinkedIn**: [linkedin.com/in/moin-ahmed27](https://www.linkedin.com/in/moin-ahmed27/)
+* 💻 **GitHub**: [github.com/Moin-27](https://github.com/Moin-27)
+* 📊 **Tableau Public**: [public.tableau.com/app/profile/moin.ahmed27](https://public.tableau.com/app/profile/moin.ahmed27)
+* 🌐 **Portfolio**: [moin-27.github.io/Portfolio](https://moin-27.github.io/Portfolio/)
