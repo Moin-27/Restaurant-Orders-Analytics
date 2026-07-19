@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 # 🍔 Restaurant Orders Analytics Dashboard
 
 ---
